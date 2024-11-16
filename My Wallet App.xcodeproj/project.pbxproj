@@ -12,6 +12,9 @@
 		EB502F722CCFE70000F8750A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB502F712CCFE70000F8750A /* Item.swift */; };
 		EB502F742CCFE70200F8750A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB502F732CCFE70200F8750A /* Assets.xcassets */; };
 		EB502F772CCFE70200F8750A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB502F762CCFE70200F8750A /* Preview Assets.xcassets */; };
+		EB502F7E2CCFE80B00F8750A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB502F7D2CCFE80B00F8750A /* LoginScreen.swift */; };
+		EB502F812CCFE8AF00F8750A /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB502F802CCFE8AF00F8750A /* LoginData.swift */; };
+		EB502F832CCFFA8100F8750A /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB502F822CCFFA8100F8750A /* LoginOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		EB502F712CCFE70000F8750A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EB502F732CCFE70200F8750A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB502F762CCFE70200F8750A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB502F7D2CCFE80B00F8750A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		EB502F802CCFE8AF00F8750A /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		EB502F822CCFFA8100F8750A /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +59,14 @@
 		EB502F6C2CCFE70000F8750A /* My Wallet App */ = {
 			isa = PBXGroup;
 			children = (
+				EB502F7F2CCFE89C00F8750A /* Model */,
 				EB502F6D2CCFE70000F8750A /* My_Wallet_AppApp.swift */,
+				EB502F7D2CCFE80B00F8750A /* LoginScreen.swift */,
 				EB502F6F2CCFE70000F8750A /* ContentView.swift */,
 				EB502F712CCFE70000F8750A /* Item.swift */,
 				EB502F732CCFE70200F8750A /* Assets.xcassets */,
 				EB502F752CCFE70200F8750A /* Preview Content */,
+				EB502F822CCFFA8100F8750A /* LoginOptionsView.swift */,
 			);
 			path = "My Wallet App";
 			sourceTree = "<group>";
@@ -68,6 +77,14 @@
 				EB502F762CCFE70200F8750A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB502F7F2CCFE89C00F8750A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB502F802CCFE8AF00F8750A /* LoginData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB502F702CCFE70000F8750A /* ContentView.swift in Sources */,
+				EB502F832CCFFA8100F8750A /* LoginOptionsView.swift in Sources */,
+				EB502F812CCFE8AF00F8750A /* LoginData.swift in Sources */,
+				EB502F7E2CCFE80B00F8750A /* LoginScreen.swift in Sources */,
 				EB502F722CCFE70000F8750A /* Item.swift in Sources */,
 				EB502F6E2CCFE70000F8750A /* My_Wallet_AppApp.swift in Sources */,
 			);

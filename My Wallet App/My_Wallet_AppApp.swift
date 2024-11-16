@@ -25,7 +25,8 @@ struct My_Wallet_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            LoginScreen()
         }
         .modelContainer(sharedModelContainer)
     }
